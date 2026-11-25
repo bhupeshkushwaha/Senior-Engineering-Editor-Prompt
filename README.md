@@ -55,7 +55,7 @@ Copy and paste the exact text Jira Epic Readiness Review: Requirements, Code Tra
 ```text
 Review Jira epic YOUR-EPIC-KEY and tell me whether it’s ready for implementation planning. Keep this a read-only discovery pass. Do not edit code, create branches or PRs, or update Jira.
 
-1. Gather the requirements. Use the Entrata Gateway’s `jira-epic-review` skill if available. Read the epic, child issues, linked specs and designs, relevant comments, dependencies, and PRs. Summarize the problem, affected users, current and expected behavior, first-release scope, and acceptance criteria. Cite the sources. Flag conflicting requirements, missing information, and sources you couldn’t access.
+1. Gather the requirements. Use the Skill(MCP) Gateway’s `jira-epic-review` skill if available. Read the epic, child issues, linked specs and designs, relevant comments, dependencies, and PRs. Summarize the problem, affected users, current and expected behavior, first-release scope, and acceptance criteria. Cite the sources. Flag conflicting requirements, missing information, and sources you couldn’t access.
 
 2. Identify questions for the team. Before tracing the code, list the unanswered questions that could change scope, permissions, data, integrations, or expected behavior. For each question, say who should answer it and what depends on the answer. Continue discovery wherever the missing answer doesn’t prevent it.
 
